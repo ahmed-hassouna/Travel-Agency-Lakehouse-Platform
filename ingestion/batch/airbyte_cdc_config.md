@@ -166,10 +166,6 @@ Create a dedicated IAM user with least-privilege access for Airbyte operations.
 
 **Policy Name:** `Airbyte_S3_Policy`
 
-![Create IAM Policy_1](./docs/create_policy_1.png)  
-
-![Create IAM Policy_2](./docs/create_policy_2.png)
-
 **Policy JSON:**
 ```json
 {
