@@ -58,7 +58,7 @@ This pipeline is designed for low-latency processing of high-volume event stream
 
 ### 4.3. Dimensional Data Model
 
-The data warehouse follows a **star schema** design optimized for analytical queries and business intelligence reporting. The model includes fact tables for flight bookings and hotel bookings, connected to multiple dimension tables.
+The data warehouse follows a **galaxy schema** design optimized for analytical queries and business intelligence reporting. The model includes fact tables for flight bookings and hotel bookings, connected to multiple dimension tables.
 
 ![Dimensional Data Model](./docs/Dimentional_Modelling.png)
 
@@ -163,3 +163,4 @@ We welcome contributions! Please see the `CONTRIBUTING.md` for details on our co
 ## 8. License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
