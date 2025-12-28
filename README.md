@@ -144,15 +144,16 @@ The entire environment is containerized using **Docker** for consistent and repr
 1.  **Prerequisites:** Docker, Docker Compose, and a running Spark Cluster environment.
 2.  **Deployment:**
     ```bash
-    # Clone the repository
-    git clone https://github.com/your-repo/your-project.git
-    cd your-project
+# Clone the repository
+git clone https://github.com/ahmed-hassouna/Travel-Agency-Lakehouse-Platform.git
+cd Travel-Agency-Lakehouse-Platform
 
-    # Start all services (Airflow, PostgreSQL, Cassandra, etc.)
-    docker-compose up -d
+# Start all services (Airflow, PostgreSQL, Cassandra, etc.)
+docker-compose up -d
 
-    # Deploy Airflow DAGs (assuming they are in the dags/ folder)
-    # The Airflow container will automatically pick up the DAG files.
+# Airflow DAGs are located in the dags/ directory
+# The Airflow container will automatically detect and load them
+
     ```
 3.  **Configuration:** Update connection details for Airbyte, Spark, and the BI tools in the respective configuration files.
 
@@ -163,4 +164,5 @@ We welcome contributions! Please see the `CONTRIBUTING.md` for details on our co
 ## 8. License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
 
