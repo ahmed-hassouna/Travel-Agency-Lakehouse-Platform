@@ -143,7 +143,6 @@ The entire environment is containerized using **Docker** for consistent and repr
 
 1.  **Prerequisites:** Docker, Docker Compose, and a running Spark Cluster environment.
 2.  **Deployment:**
-    ```bash
 # Clone the repository
 git clone https://github.com/ahmed-hassouna/Travel-Agency-Lakehouse-Platform.git
 cd Travel-Agency-Lakehouse-Platform
